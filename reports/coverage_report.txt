@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.0, pluggy-1.6.0
+rootdir: C:\Users\Вадим\lab_21-22_testing
+plugins: cov-7.1.0, html-4.2.0, metadata-3.1.1, xdist-3.8.0
+collected 78 items
+
+tests\test_converter.py .........                                        [ 11%]
+tests\test_converter_pytest.py ................                          [ 32%]
+tests\test_leap_year.py .....                                            [ 38%]
+tests\test_leap_year_pytest.py ..............                            [ 56%]
+tests\test_quadratic_pytest.py .......                                   [ 65%]
+tests\test_quadratic_unittest.py .....                                   [ 71%]
+tests\test_sorter.py .........                                           [ 83%]
+tests\test_sorter_pytest.py .............                                [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.0-final-0 _______________
+
+Name                      Stmts   Miss  Cover
+---------------------------------------------
+src\__init__.py               0      0   100%
+src\converter.py             25      2    92%
+src\leap_year.py             12      0   100%
+src\quadratic_solver.py      17      1    94%
+src\sorter.py                18      1    94%
+---------------------------------------------
+TOTAL                        72      4    94%
+============================= 78 passed in 0.16s ==============================
